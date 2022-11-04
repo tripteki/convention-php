@@ -1,0 +1,40 @@
+{
+    "name": "tripteki/laravelphp-lint",
+    "version": "1.0.0",
+    "description": "Trip Teknologi's Codebase Convention",
+
+    "require": {
+
+        "php": "^8.0.2",
+
+        "laravel/framework": "^9.19",
+        "laravel/pint": "^1.0.2"
+    },
+
+    "require-dev": {},
+
+    "autoload": {
+
+        "psr-4": {
+
+            "Tripteki\\Lint\\": "src/"
+        }
+    },
+
+    "autoload-dev": {},
+
+    "extra": {
+
+        "laravel": {
+
+            "dont-discover": [],
+
+            "providers": [
+
+                "Tripteki\\Lint\\Providers\\LintServiceProvider"
+            ],
+
+            "aliases": []
+        }
+    }
+}
