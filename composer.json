@@ -1,6 +1,6 @@
 {
     "name": "tripteki/laravelphp-lint",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "Trip Teknologi's Codebase Convention",
 
     "readme": "README.md",
@@ -13,8 +13,7 @@
 
         "php": "^8.0.2",
 
-        "laravel/framework": "^9.19",
-        "laravel/pint": "^1.0.2"
+        "laravel/pint": "^1.2.0"
     },
 
     "require-dev": {},
